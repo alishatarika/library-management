@@ -28,8 +28,9 @@ int main()
     case 1:
 
         printf("Which subject book do you want");
+        scanf("%s", &a);
         printf("Enter author name");
-        scanf("%s %s", &a, &b);
+        scanf("%s", &b);
         printf("issue date \n");
         scanf("%d %d %d", &date, &month, &year);
         break;
