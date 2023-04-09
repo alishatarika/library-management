@@ -38,13 +38,14 @@ void issuebook()
 {
     int date;
     int month;
-    char a;
-    char b;
+    char bookname;
+    char authorname;
     int year;
     printf("Which subject book do you want ");
-    scanf("%s", &a);
+    scanf("%s", &bookname);
     printf("Enter author name ");
-    scanf("%s", &b);
+    scanf("%s", &authorname);
+   
     printf("issue date \n");
     scanf("%d %d %d", &date, &month, &year);
 }
